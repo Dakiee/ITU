@@ -1,0 +1,101 @@
+.container{
+	display: flex;
+    justify-content: space-around;
+}
+.container div{
+	background-color:purple;
+    width: 200px;
+    padding-bottom:40px;
+    padding-top: 40px;
+    text-align: center;
+}
+.color:hover{
+	color: white;
+}
+.color{
+	transition-property: color;
+	transition-duration: 2s;
+}
+ 
+.fade{
+	opacity: 0.5;
+	color: white;
+	background-color:black;
+	transition: 0.5s;
+}  
+.fade:hover{
+	opacity: 1;
+	transition: fade;
+	background-color:black;
+} 
+.grow:hover{
+	transform:scale(1.5);
+	transition-duration: 10s;
+}
+.grow{
+	color: white;
+	transition-property:grow;
+}
+.shrink{
+	color: white;
+	font-style:;
+}
+.shrink:hover{
+	transform: scale(0.8) ;
+	transition-duration: 3s;
+}
+.rotate{
+	color: white;
+}
+.rotate:hover{
+	transform: rotate(-30deg);
+	transition: 0.5s;
+}
+
+.click{
+	background-color: white;
+	color: white;
+	font-weight: bolder;
+	font-size: 20px;
+	position: relative;
+	
+}
+#click{position:relative;}
+
+#click-background {
+	transition: 0.5s;
+	width: 0px;
+	position: absolute;
+}
+
+#click-text{
+	position: absolute;
+	text-align: center;
+	padding-top: 35px;
+	top: 0px;
+	left: 0px;
+
+}
+#click-background{
+	background-color:black ;
+	box-sizing: border-box;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+
+}
+#click-border{
+ 	top: 0px;
+	left: 0px;
+	position: absolute;
+
+}
+#click:hover #click-background{
+	width: 200px;
+	height: 100px;
+
+
+}
+body{
+    background-color:wheat;
+}

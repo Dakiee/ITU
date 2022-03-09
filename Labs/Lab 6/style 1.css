@@ -1,0 +1,86 @@
+body{
+    background-color: gray;
+}
+
+.out{
+    background-color: green;
+    width: 800px;
+    height: 800px;
+    margin: 5%;
+}
+
+/*
+zurag 1
+.in{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: relative;
+  top: 20px;
+  left: 20px;
+}
+*/
+
+/* 
+zurag 2
+.in{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: relative;
+  top: -20px;
+  left: -20px;
+}
+*/
+/*
+zurag 3
+.in{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+  bottom: 80px;
+  right: 80px;
+}
+*/
+
+/*
+zurag 4
+.in{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+  bottom: 75px;
+  left: 55px;
+}
+*/
+
+
+
+
+/*
+zurag 5
+.in{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+  top: 10px;
+  left: 20px;
+}
+*/
+
+/*
+zurag 6
+.in{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+  top: 120px;
+  right: 880px;
+}
+*/
+
+

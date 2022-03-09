@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lab12</title>
+    </head>
+
+    <body>
+        <style>
+          h1 {
+            text-align: center;
+          }
+          #coin {
+            position: relative;
+            margin: 0 auto;
+            width: 100px;
+            height: 100px;
+            cursor: pointer;
+            transition: transform 1s ease-in;
+            transform-style: preserve-3d;
+          }
+          .side {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            position: absolute;
+            backface-visibility: hidden;
+          }
+          .head {
+            background-color: lightblue;
+            z-index: 10;
+          }
+          .tail {
+            background-color:lightpink;
+            transform: rotateX(-180deg);
+          }
+      
+          .flipHead {
+            animation: resultHead 2s ease-out forwards;
+          }
+          .flipTail {
+            animation: resultTail 2s ease-out forwards;
+          }
+      
+          @keyframes resultHead {
+            from {
+              transform: rotateX(0);
+            }
+            to {
+              transform: rotateX(1800deg);
+            }
+          }
+      
+          @keyframes resultTail {
+            from {
+              transform: rotateX(0);
+            }
+            to {
+              transform: rotateX(1980deg);
+            }
+          }
+        </style>
+        <h1>Зоосон дээр дарна уу?</h1>
+        <h1>Цэнхэр бол True.</h1>
+        <h1>Ягаан бол False.</h1>
+      
+        <div id="coin">
+          <div class="side head"></div>
+          <div class="side tail"></div>
+        </div>
+        <script>
+          let coin = document.getElementById("coin");
+      
+          coin.addEventListener("click", fnClick);
+      
+          function fnClick() {
+            var flipResult = Math.random();
+            if (flipResult < 0.5) {
+              coin.className = "flipHead";
+            } else {
+              coin.className = "flipTail";
+            }
+          }
+        </script>
+      </body>
+</html>

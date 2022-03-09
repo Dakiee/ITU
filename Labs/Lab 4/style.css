@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Lato&family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Lato&family=Montserrat:wght@100&family=Roboto:wght@300&display=swap');
+#header{
+background-color: orange;
+color: white;
+width: 100px;
+border-radius: 10px;
+font-size: 1.5em;
+text-align: left;
+padding: 1em;
+font-size: 35px;
+font-family: 'Ephesis', cursive;
+font-family: 'Montserrat', sans-serif;
+}
+#class{
+text-align: center;
+padding: 10px	;
+}
+span{
+	margin: 20px;
+}
+
+#firstsidebar{
+background-color: blue;
+padding-top: 3em;
+padding-bottom: 3em;
+padding-left: 1em;
+}
+
+#secondsidebar{
+background-color: aqua;
+padding-top: 3em;
+padding-bottom: 2em;
+padding-left: 0.5em;
+padding-right: 2em;
+color: white;
+}
+
+#mainhead{
+	
+
+background-color: orangered;
+font-family: 'Ephesis', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-size: 30px;
+padding: 5px;
+color: white;
+}
+
+#footer{
+
+background-color: gray;
+text-align: right;
+}
+table{
+	width: 50%;
+	margin: 0%;
+}
+.slogan{
+font-size: 15px;
+font-family: 'Ephesis', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+}
